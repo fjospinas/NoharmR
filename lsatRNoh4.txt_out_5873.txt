@@ -1,0 +1,166 @@
+                                  N O H A R M
+
+                   Fitting a (multidimensional) Normal Ogive
+                     by Harmonic Analysis - Robust Method
+
+     Title : #Ejemplo de LSAT7
+
+     Number of items        =  5
+     Number of dimensions   =  1
+     Number of subjects     =  1000
+
+     An exploratory solution has been requested.
+
+
+
+Sample Product-Moment Matrix
+
+
+           1       2       3       4       5
+
+  1     0.828
+  2     0.567   0.658
+  3     0.664   0.560   0.772
+  4     0.532   0.428   0.501   0.606
+  5     0.718   0.567   0.672   0.526   0.843
+
+
+
+Item Covariance Matrix
+
+
+           1       2       3       4       5
+
+  1     0.142
+  2     0.022   0.225
+  3     0.025   0.052   0.176
+  4     0.030   0.029   0.033   0.239
+  5     0.020   0.012   0.021   0.015   0.132
+
+
+
+Fixed Guesses
+
+
+      1       2       3       4       5
+
+   0.0     0.0     0.0     0.0     0.0  
+
+
+
+Initial Constants
+
+
+      1       2       3       4       5
+
+   1.058   0.455   0.833   0.301   1.126
+
+
+
+
+
+                                    =======
+                                    Results
+                                    =======
+
+
+
+
+
+Final Constants
+
+
+      1       2       3       4       5
+
+   1.087   0.482   1.072   0.296   1.084
+
+
+
+Final Coefficients of Theta
+
+
+           1
+
+  1     0.566
+  2     0.635
+  3     1.033
+  4     0.460
+  5     0.398
+
+
+
+Residual Matrix (lower off-diagonals)
+
+
+           1       2       3       4
+
+  2     0.004
+  3     0.006  -0.006
+  4    -0.010   0.003   0.003
+  5    -0.008   0.006  4.4e-6  -0.001
+
+
+  Sum of squares of residuals (lower off-diagonals)   =    0.0002957
+
+  Root mean square of residuals (lower off-diagonals) =    0.0054376
+
+  Tanaka index of goodness of fit                     =    0.9969241
+
+
+
+
+
+
+
+Threshold Values
+
+
+      1       2       3       4       5
+
+   0.946   0.407   0.745   0.269   1.007
+
+
+
+Unique Variances
+
+
+      1       2       3       4       5
+
+   0.757   0.713   0.484   0.825   0.863
+
+
+
+Factor Loadings
+
+
+           1
+
+  1     0.492
+  2     0.536
+  3     0.718
+  4     0.418
+  5     0.370
+
+
+
+
+
+LORD PARAMETERIZATION - For the unidimensional case
+
+
+
+Vector A: Discrimination parameters
+
+
+      1       2       3       4       5
+
+   0.566   0.635   1.033   0.460   0.398
+
+
+
+Vector B: Difficulty parameters
+
+
+      1       2       3       4       5
+
+  -1.922  -0.759  -1.038  -0.644  -2.723
